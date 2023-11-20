@@ -1,6 +1,7 @@
 /* HOME */
 .containerhome{
     width:auto;
+    height: auto;
     border-bottom: grey solid;
     margin: 50;
 }
