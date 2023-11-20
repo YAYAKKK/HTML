@@ -94,7 +94,7 @@ body{
 }
 .container{
     margin: auto;
-    width: 700px;
+    width: 900px;
     background-color:rgb(252, 244, 252);
     padding: 10px;
     border: solid;
@@ -150,15 +150,18 @@ body{
 }
 
 .credit{
-    width: 240px;
+    width: 400px;
     height: auto;
     float: right;
-    margin-left: 25;
+    margin-left: 10;
     margin-top: 0;
-    
     text-align: justify;
 }
-
+.biografipenulis{
+    text-indent: 10;
+    margin-left: 10;
+    margin-bottom: auto;
+}
 .creditpenulis{
 font-family: 'Times New Roman', Times, serif;
     text-align: center;
