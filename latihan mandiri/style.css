@@ -1,0 +1,27 @@
+body{ 
+    background-color:rgba(221, 218, 221, 0.933);
+}
+.Pengantar{
+    color: #345434;
+    font-family: tahoma;
+    text-align: left;
+    display: block;
+    
+}
+.paraf1{
+    font-family: tahoma;
+    line-height: 30px;
+    text-indent: 20;
+    text-transform: capitalize;
+}
+.paraf1~p{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inputuser{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20;
+}
+.Introduction{
+    text-transform:capitalize
+}
