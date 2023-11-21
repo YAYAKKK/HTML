@@ -1,9 +1,32 @@
 /* HOME */
-.containerhome{
-    width:auto;
+
+.backgroundkiri img{
+    width: 250px;
+    height: 1100;
+    float: left;
+    margin: auto;
+    position: relative;
+}
+.backgroundkanan img{
+    width: 250px;
     height: auto;
-    border-bottom: grey solid;
-    margin: 50;
+    float: right;
+    margin: auto;
+    position: relative;
+}
+.containerallhome{
+    
+    width: 900px;
+    margin: auto;
+}
+.containerhome{
+    width: 900px;
+    border-bottom: black solid;
+    margin: auto ;
+    font-family: 'Times New Roman', Times, serif;
+    padding: auto;
+    box-sizing: border-box;
+    
 }
 .navbar{
     text-align: center;
@@ -24,24 +47,31 @@
 .navbar a:hover{
     color: green;
 }
-.logo img{
-    width: 200px;
+.containerhome img{
+    width: 100px;
+    padding: 11;
     float: left;
+    height: 100;
+    position: relative;
 }
 .containerhome .judul{
-    font-size: 100px;
+    font-size: 50px;
     font-family: tahoma;
     border: none;
 }
 
 .containerintro{
-    width:auto;
-    margin:50;
     
+    width:auto;
+    margin: 15px;;
+    border-bottom-style: solid;
+    padding: 2px;
+    background-color: rgb(204, 198, 198);
+    position: relative;
 }
 
 .introduction{
-    margin: 10 5 5 5;
+    margin: 0 5 5 5;
     text-align: justify;
     
 }
@@ -90,7 +120,7 @@
 
 /* PENGANTAR */
 body{
-    background-image: url('moroccan-flower.png');
+    background-image: url('bg.jpg');
 }
 .container{
     margin: auto;
