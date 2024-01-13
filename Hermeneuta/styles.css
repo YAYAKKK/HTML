@@ -15,7 +15,19 @@ body{
 /* styles.css */
 .article-card {
     height: 100%; /* Set a fixed height for all cards */
+    box-sizing: border-box;
 }
+.card-body p {
+    line-height: 1;
+    margin: 0;
+    letter-spacing:normal;
+    word-spacing: normal;
+}
+
+.card {
+    padding: 10px;
+}
+
 #nama {
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -53,7 +65,10 @@ body{
 
 section{
     text-align: justify;
-    margin: 3px;
+    margin-top: 1px;
+}
+.about section{
+    margin: 0;
 }
 /* Apply transition to opacity property for sections */
 section .konten {
@@ -87,4 +102,9 @@ section{
 }
 .referensi ul li{
     color: rgb(68, 66, 70);
+}
+
+.referensi ul li a{
+    color: rgb(68, 66, 70);
+    text-decoration: none;
 }
