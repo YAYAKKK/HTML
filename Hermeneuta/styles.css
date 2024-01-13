@@ -3,11 +3,10 @@ body{
     background-color: rgb(222, 231, 222);
     font-family: tahoma;
 }
-
 .logo {
     width: 50px;
     height: auto;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 /* styles.css */
 .border{
