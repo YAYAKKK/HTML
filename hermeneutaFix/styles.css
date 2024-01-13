@@ -1,0 +1,57 @@
+/* Menambahkan gaya untuk logo */
+body {
+    padding-top: 20px;
+}
+
+.article-card {
+    width: 18rem;
+    margin-right: 20px;
+}
+
+#article-container {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.logo {
+    width: 50px; /* Sesuaikan dengan lebar yang diinginkan */
+    height: auto; /* Untuk menjaga aspek rasio */
+    margin-right: 10px; /* Jarak antara logo dan teks */
+}
+
+/* Menambahkan gaya untuk teks "HERMENEUTA" */
+.navbar-brand {
+    display: flex;
+    align-items:center; /* Untuk menengahkan vertikal */
+}
+
+@media (min-width: 768px) {
+    /* Layar yang lebih besar (PC) */
+    .navbar-nav {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    /* Layar yang lebih kecil (Mobile) */
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+
+
+.footer{
+    background-color: grey;
+    text-align: center;
+    color: white;
+    
+}

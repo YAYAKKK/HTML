@@ -1,0 +1,133 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html{
+    font-family: tahoma;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.panel {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex; /* Tambahkan ini */
+    justify-content: space-between; /* Menjaga jarak antar elemen */
+}
+
+
+.pricingHeader{
+    color: rgb(167, 78, 78);
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pricingFeature{
+    color: grey;
+    margin: 25px 0 30px ;
+
+}
+
+.pricingFeatureItem{
+    font-weight: 400 ;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 15px 0 ;
+    border-top: 1px solid aqua;
+}
+.pricingFeatureItem:last-child{
+    border-top: 1px solid aqua;
+}
+
+.pricingPrice{
+    color: aqua ;
+    display: block;
+    font-size: 25px;
+    font-weight: 400px;
+}
+
+.pricing-button{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: grey;
+    border-radius: 10px;        
+    border: 1px solid grey;
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 600;
+}
+.pricing-button.isFeature{
+    background-color: grey;
+    color: white;
+}
+
+.pricing-button:hover, .pricing-button:focus{
+    color: white;
+    background-color:rgb(172, 155, 155);
+}
+
+@media (max-width: 768px) {
+    .panel {
+        flex-direction: column; /* Atur tata letak ke kolom pada layar kecil */
+        align-items: center; /* Pusatkan elemen pada layar kecil */
+    }
+}
+.pricingImg {
+    max-width: 100%;
+    height: auto;
+}

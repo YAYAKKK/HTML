@@ -1,239 +1,75 @@
-/* HOME */
-
-.backgroundkiri img{
-    width: 250px;
-    height: 1100;
-    float: left;
-    margin: auto;
-    position: relative;
-}
-.backgroundkanan img{
-    width: 250px;
-    height: auto;
-    float: right;
-    margin: auto;
-    position: relative;
-}
-.containerallhome{
-    
-    width: 900px;
-    margin: auto;
-}
-.containerhome{
-    width: 900px;
-    border-bottom: black solid;
-    margin: auto ;
-    font-family: 'Times New Roman', Times, serif;
-    padding: auto;
-    box-sizing: border-box;
-    
-}
-.navbar{
-    text-align: center;
-    letter-spacing: 3px;
-    margin: 10px;
-    text-indent: 10px;
-}
-
-.navbar ul li{
-    display: inline-block;
-    padding: -20 5 6 9 ;
-}
-.navbar a {
-    color:black;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.navbar a:hover{
-    color: green;
-}
-.containerhome img{
-    width: 100px;
-    padding: 11;
-    float: left;
-    height: 100;
-    position: relative;
-}
-.containerhome .judul{
-    font-size: 50px;
-    font-family: tahoma;
-    border: none;
-}
-
-.containerintro{
-    
-    width:auto;
-    margin: 15px;;
-    border-bottom-style: solid;
-    padding: 2px;
-    background-color: rgb(204, 198, 198);
-    position: relative;
-}
-
-.introduction{
-    margin: 0 5 5 5;
-    text-align: justify;
-    
-}
-.introduction h2{
-    margin-bottom: -15 ;
-}
-
-.action{
-    text-transform: uppercase;
-    font-style: italic;
-    font-size: 20;
-    text-align: center;
-    text-indent: 3;
-}
-
-.back a{
-    text-transform: capitalize;
-    text-decoration: none;
-    font-size: small;
-    text-align: left;
-    color: orange
-}
-.footer{
-    
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-/* CLEAR FLOAT */
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.cf:after {
-    clear: both;
-}
-
-.cf {
-    zoom: 1;
-}
-
-
-/* PENGANTAR */
+/* Gaya untuk logo */
 body{
-    width: 100%;
-    background-image: url('bg.jpg');
-}
-.container{
-    margin: auto;
-    width: 900px;
-    background-color:rgb(252, 244, 252);
-    padding: 10px;
-    border: solid;
-
+    background-color: rgb(252, 255, 252);
+    font-family: tahoma;
 }
 
-.hero{
-    width: 100%;
-    height: 350px;;
-    background-image: url(gabriella-clare-marino-Hx8HaI4ERkA-unsplash.jpg);
-    background-size: cover;
-    background: position 0 100px 50px;
-}
-
-.header{
-    padding: 5px;
-}
-
-.judul{
-    padding-top:3px;
-    font-size: 30px;
-    text-transform: uppercase;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    border-bottom: solid;
-}
-.headercontent .penulis{
-    padding: 10;
-    font-family: arial;
-    font-size: 12px;
-    text-align: center;
-    margin-top: -25;
-}
-.headercontent .penulis a{
-    color: orangered;
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
-    text-transform: capitalize;
-    text-decoration: none;
-}
-.headercontent .penulis a:hover{
-    background-color:grey;
-    color: black;
-    font-style: italic;
-}
-.headercontent .penulis a:visited{
-    color: red ;
-}
-.content{
-
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    width: 450px;
-}
-
-.credit{
-    width: 400px;
+.logo {
+    width: 100px;
     height: auto;
-    float: right;
-    margin-left: 10;
-    margin-top: 0;
-    text-align: justify;
+    margin-right: 10px;
 }
-.biografipenulis{
-    text-indent: 10;
-    margin-left: 10;
-    margin-bottom: auto;
+/* styles.css */
+.border{
+    border-radius: 20px;
 }
-.creditpenulis{
-font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+/* styles.css */
+.article-card {
+    height: 100%; /* Set a fixed height for all cards */
 }
-.credit{
-    border: solid;
-    text-align: center;
-}
-.credit img{
-    width: 150px;
-    text-align: center;
+#nama {
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.credit .biografipenulis{
-    text-align: justify;
+/* Gaya untuk navbar ketika discroll */
+.navbar.scrolled {
+    background-color: #f8f9fa; /* Warna latar ketika navbar discroll */
 }
 
-.back a{
-    color: red;
-    font-size: 15;
-    text-transform: uppercase;
+/* Gaya untuk kartu artikel */
+.article-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Memastikan semua kartu memiliki tinggi yang sama */
 }
-.content .footer{
-    border: red rgb(134, 134, 134)id;
-    background-color: black;
+
+/* Gaya untuk footer */
+.footer {
+    background-color: grey;
     color: white;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* CLEAR */
-
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+@media (max-width: 768px) {
+    /* Gaya khusus untuk layar kecil (ponsel) */
+    .navbar-brand, .footer, .navbar {
+        flex-direction: column;
+    }
 }
 
-.cf:after {clear: both;}
+/* Apply transition to opacity property for sections */
+/* styles.css */
 
-.cf {
-    zoom: 1;
-}  
+section{
+    text-align: justify;
+}
+/* Apply transition to opacity property for sections */
+section .konten {
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+    width: 100px;
+    height: 50px;
+}
+
+/* Adjust the opacity for visible sections */
+section.visible {
+    opacity: 1;
+}
+h1{
+    text-align: center;
+}
+section .lead{
+text-align: center;
+}
