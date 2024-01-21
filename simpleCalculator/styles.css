@@ -1,0 +1,165 @@
+body{
+    background: silver;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: pink;
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 12); 
+    height: 600px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 5px;
+}
+.tampilan{
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 12); 
+    height: 30%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.tampilan input{
+    background-color: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: end;
+    font-size: 30px;
+    width: 90%;
+    outline: none;
+    border: none;
+}
+.tombol-kiri{
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    justify-content: space-around;
+    align-items: center; 
+    margin: 10px;
+}
+
+button {
+    background-color: pink;
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 12); 
+    font-size: 20px;
+    font-weight: 100;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin: 10px;
+}
+.judul {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.judul h1 {
+    font-size: 2em;
+    color: #333; 
+    margin: 20px;
+}
+
+button:hover{
+    transform: scale(0.9);
+    color: #fff;
+}
+.tombol-kanan{
+    background-color: #fff;
+    box-shadow: inset  5px 5px 12px rgb(0, 0, 0, 16), 5px 5px 12px #fdc5c5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    width: 30%;
+    height: 100%;
+    margin: 10px;
+    
+}
+input:focus {
+    border: none;
+    outline: none;
+}
+/* Style untuk riwayat dan tombol lanjutan */
+.history {
+    background-color: pink;
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 12); 
+    width: 200px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    color: black;
+    box-sizing: border-box;
+    border-radius: 20%;
+    display: flex;
+}
+.history ol{
+    text-align: center;
+    text-decoration: solid;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.tombol-tambahan{
+    width: 70%;
+    display: grid;
+    grid-gap: 10px;
+    justify-content: space-around;
+    align-items: center; 
+    margin-top: 30px;
+}
+button .clear-history{
+    display: flex;
+    margin-top: 0;
+    background-color: red;
+    color: red;
+}
+
+.calculator-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+    .calculator-container {
+        flex-direction: column;
+    }
+
+    #fullHistory {
+        display: none; /* Hide full history on small screens by default */
+    }
+}
+
+/* Styles for inline history */
+#inline-history {
+    font-size: 0.8em;
+    color: grey;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Show full history button */
+.toggle-history {
+    margin-top: 10px;
+}
